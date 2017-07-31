@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>animation</title> 
+   <link href="css/bootstrap.css" rel="stylesheet">  
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+   <link rel="stylesheet" type="text/css" href="css/animate.css">
+  </head>
+  <body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="panakiaea"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">home</a></li> 
+        <li><a href="#">about</a></li> 
+        <li><a href="#">gallery</a></li> 
+        <li><a href="#">service</a></li> 
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+
+
+<section class="slider">
+
+ <!--  <div class="overlay"></div> -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="slider-header">
+          
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+        <h4>sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="foods">
+          <div class="img"> 
+          <img src="images/squire.jpg" alt="food" class="img-responsive">
+          </div>
+          <div class="caption">
+            <h3>ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="foods">
+          <div class="img"> 
+          <img src="images/squire.jpg" alt="food" class="img-responsive">
+          </div>
+          <div class="caption"> 
+            <h3>ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="foods">
+          <div class="img"> 
+          <img src="images/squire.jpg" alt="food" class="img-responsive">
+          </div>
+          <div class="caption">
+            <h3>ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+
+ <section class="galleries">
+   <div class="container">
+     <div class="row">
+
+
+       <div class="col-sm-4">
+         <div class="gallery-one fadeInLeft wow"  data-wow-duration="1s" data-wow-delay="0.2s" >
+           <img src="images/two.jpg" class="img-responsive">
+         </div>
+       </div>
+       <div class="col-sm-4">
+         <div class="gallery-two  fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.4s" >
+           <img src="images/three.jpg" class="img-responsive">
+           <ul class="list-inline">
+             <li><a href="#"><i class="fa fa-search-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-link"></i></a></li>
+           </ul>
+         </div>
+       </div>
+       <div class="col-sm-4">
+         <div class="gallery-three  fadeInRight wow" data-wow-duration="1s" data-wow-delay="0.6s" >
+           <span class="overlay-one"></span> 
+           <span class="overlay-two"></span> 
+           <img src="images/one.jpg" class="img-responsive">
+         </div>
+       </div>
+
+     </div>
+   </div>
+ </section>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script> 
+
+
+                wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       false,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+              </script>
+  </body>
+</html>
